@@ -277,9 +277,9 @@ def render_sidebar(selected_user: str, role: str) -> None:
         # About
         st.divider()
         st.markdown('<div class="sidebar-header">System Info</div>', unsafe_allow_html=True)
-        st.markdown("**LLM:** Gemini 1.5 Flash")
-        st.markdown("**Embeddings:** all-MiniLM-L6-v2")
-        st.markdown("**Vector DB:** ChromaDB")
+        st.markdown("**LLM:** Gemini 2.5 Flash")
+        st.markdown("**Embeddings:** gemini-embedding-001")
+        st.markdown("**Vector DB:** FAISS")
         st.markdown("**Framework:** LangChain")
 
 
