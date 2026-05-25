@@ -43,13 +43,21 @@ def check_setup() -> tuple[bool, list[str]]:
         issues.append("FAISS index not found. Run: python ingest.py")
 
     # Check .env
-    if not os.path.exists(".env"):
-        issues.append(".env file missing. Copy .env.example and add your GOOGLE_API_KEY.")
-    else:
-        from dotenv import dotenv_values
-        env = dotenv_values(".env")
-        if not env.get("GOOGLE_API_KEY") or env.get("GOOGLE_API_KEY") == "your_api_key_here":
-            issues.append("GOOGLE_API_KEY not set in .env file.")
+    # if not os.path.exists(".env"):
+    #     issues.append(".env file missing. Copy .env.example and add your GOOGLE_API_KEY.")
+    # else:
+    #     from dotenv import dotenv_values
+    #     env = dotenv_values(".env")
+    #     if not env.get("GOOGLE_API_KEY") or env.get("GOOGLE_API_KEY") == "your_api_key_here":
+    #         issues.append("GOOGLE_API_KEY not set in .env file.")
+
+    try:
+        import streamlit as st
+        api_key = st.secrets.get("GOOGLE_API_KEY")
+        if not api_key:
+            issues.append("GOOGLE_API_KEY not set in Streamlit secrets")
+    except:
+        pass  # Running locally, not on Streamlit Cloud
 
     return len(issues) == 0, issues
 

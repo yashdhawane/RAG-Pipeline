@@ -104,7 +104,9 @@ def get_vectorstore():
 def get_llm():
     global _llm
     if _llm is None:
-        api_key = os.getenv("GOOGLE_API_KEY")
+        # api_key = os.getenv("GOOGLE_API_KEY")
+        import streamlit as st
+        api_key = st.secrets["GOOGLE_API_KEY"]
         if not api_key:
             raise RuntimeError("Missing GOOGLE_API_KEY in .env")
 

@@ -98,7 +98,9 @@ def chunk_documents(documents):
 # ─────────────────────────────────────────────
 
 def get_embeddings():
-    api_key = os.getenv("GOOGLE_API_KEY")
+    # api_key = os.getenv("GOOGLE_API_KEY")
+    import streamlit as st
+    api_key = st.secrets["GOOGLE_API_KEY"]
 
     if not api_key:
         print("❌ Missing GOOGLE_API_KEY in .env")
