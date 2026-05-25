@@ -77,6 +77,7 @@ st.markdown("""
         padding: 1.2rem 1.5rem;
         margin: 0.8rem 0;
         line-height: 1.7;
+        color: #1e293b;
     }
 
     /* Access denied */
@@ -430,9 +431,9 @@ def main() -> None:
                 from security import build_chroma_filter
                 filt = build_chroma_filter(result.role)
                 if filt:
-                    st.markdown(f"**ChromaDB filter:** `{filt}`")
+                    st.markdown(f"**VectorDB filter:** `{filt}`")
                 else:
-                    st.markdown("**ChromaDB filter:** None (Admin — full access)")
+                    st.markdown("**VectorDB filter:** None (Admin — full access)")
 
         # ── Answer ────────────────────────────
         st.markdown("### 🤖 Answer")
