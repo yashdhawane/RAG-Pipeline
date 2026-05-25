@@ -1,0 +1,29 @@
+{
+  "catalog_version": "1.0",
+  "generated_date": "2024-07-15",
+  "organization": "Acme Corp",
+  "total_documents": 9,
+  "departments": [
+    "Finance",
+    "HR",
+    "Security",
+    "Operations"
+  ],
+  "classifications": [
+    "public",
+    "internal",
+    "confidential",
+    "restricted"
+  ],
+  "documents": [
+    "finance_report.pdf",
+    "hr_policy.pdf",
+    "security_audit.pdf",
+    "employee_records.csv",
+    "finance_transactions.csv",
+    "operations_metrics.csv",
+    "security_logs.json",
+    "audit_trail.json",
+    "alerts.json"
+  ]
+}

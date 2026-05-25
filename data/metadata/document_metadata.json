@@ -1,0 +1,80 @@
+{
+  "finance_report.pdf": {
+    "source": "finance_report.pdf",
+    "department": "finance",
+    "role": "Finance",
+    "document_type": "pdf",
+    "classification": "confidential",
+    "created_by": "finance_team",
+    "created_date": "2024-07-01",
+    "version": "2.1"
+  },
+  "hr_policy.pdf": {
+    "source": "hr_policy.pdf",
+    "department": "hr",
+    "role": "HR",
+    "document_type": "pdf",
+    "classification": "internal",
+    "created_by": "hr_team",
+    "created_date": "2024-01-15",
+    "version": "5.0"
+  },
+  "security_audit.pdf": {
+    "source": "security_audit.pdf",
+    "department": "security",
+    "role": "Security",
+    "document_type": "pdf",
+    "classification": "restricted",
+    "created_by": "security_team",
+    "created_date": "2024-07-10",
+    "version": "1.0"
+  },
+  "employee_records.csv": {
+    "source": "employee_records.csv",
+    "department": "hr",
+    "role": "HR",
+    "document_type": "csv",
+    "classification": "confidential",
+    "created_by": "hr_team"
+  },
+  "finance_transactions.csv": {
+    "source": "finance_transactions.csv",
+    "department": "finance",
+    "role": "Finance",
+    "document_type": "csv",
+    "classification": "confidential",
+    "created_by": "finance_team"
+  },
+  "operations_metrics.csv": {
+    "source": "operations_metrics.csv",
+    "department": "operations",
+    "role": "Admin",
+    "document_type": "csv",
+    "classification": "internal",
+    "created_by": "ops_team"
+  },
+  "security_logs.json": {
+    "source": "security_logs.json",
+    "department": "security",
+    "role": "Security",
+    "document_type": "json",
+    "classification": "restricted",
+    "created_by": "siem_system"
+  },
+  "audit_trail.json": {
+    "source": "audit_trail.json",
+    "department": "security",
+    "role": "Security",
+    "document_type": "json",
+    "classification": "restricted",
+    "created_by": "audit_system"
+  },
+  "alerts.json": {
+    "source": "alerts.json",
+    "department": "security",
+    "role": "Security",
+    "document_type": "json",
+    "classification": "restricted",
+    "created_by": "siem_system"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "HR": {
+    "allowed_sources": [
+      "hr_policy.pdf",
+      "employee_records.csv"
+    ],
+    "allowed_classifications": [
+      "internal",
+      "confidential"
+    ],
+    "can_export": false,
+    "can_edit": false
+  },
+  "Finance": {
+    "allowed_sources": [
+      "finance_report.pdf",
+      "finance_transactions.csv"
+    ],
+    "allowed_classifications": [
+      "confidential"
+    ],
+    "can_export": true,
+    "can_edit": false
+  },
+  "Security": {
+    "allowed_sources": [
+      "security_audit.pdf",
+      "security_logs.json",
+      "audit_trail.json",
+      "alerts.json"
+    ],
+    "allowed_classifications": [
+      "internal",
+      "confidential",
+      "restricted"
+    ],
+    "can_export": true,
+    "can_edit": true
+  },
+  "Admin": {
+    "allowed_sources": [
+      "*"
+    ],
+    "allowed_classifications": [
+      "*"
+    ],
+    "can_export": true,
+    "can_edit": true
+  }
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "alert_id": "ALT-0001",
+    "timestamp": "2024-06-09T19:14:00Z",
+    "alert_type": "Data Exfiltration Attempt",
+    "severity": "HIGH",
+    "affected_user": "alice",
+    "source_ip": "198.51.100.22",
+    "description": "Security alert #1: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0002",
+    "timestamp": "2024-05-01T20:33:00Z",
+    "alert_type": "Brute Force Attack",
+    "severity": "CRITICAL",
+    "affected_user": "unknown_user",
+    "source_ip": "192.168.1.100",
+    "description": "Security alert #2: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0003",
+    "timestamp": "2024-06-10T19:48:00Z",
+    "alert_type": "Malware Detection",
+    "severity": "CRITICAL",
+    "affected_user": "unknown_user",
+    "source_ip": "203.0.113.5",
+    "description": "Security alert #3: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0004",
+    "timestamp": "2024-01-02T22:06:00Z",
+    "alert_type": "Anomalous Login",
+    "severity": "LOW",
+    "affected_user": "charlie",
+    "source_ip": "203.0.113.5",
+    "description": "Security alert #4: Automated detection of suspicious activity.",
+    "status": "OPEN",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0005",
+    "timestamp": "2024-05-10T00:13:00Z",
+    "alert_type": "Anomalous Login",
+    "severity": "CRITICAL",
+    "affected_user": "charlie",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #5: Automated detection of suspicious activity.",
+    "status": "OPEN",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0006",
+    "timestamp": "2024-04-26T03:15:00Z",
+    "alert_type": "Brute Force Attack",
+    "severity": "CRITICAL",
+    "affected_user": "alice",
+    "source_ip": "198.51.100.22",
+    "description": "Security alert #6: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0007",
+    "timestamp": "2024-05-06T22:25:00Z",
+    "alert_type": "Malware Detection",
+    "severity": "LOW",
+    "affected_user": "charlie",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #7: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "admin"
+  },
+  {
+    "alert_id": "ALT-0008",
+    "timestamp": "2024-03-18T11:18:00Z",
+    "alert_type": "Brute Force Attack",
+    "severity": "LOW",
+    "affected_user": "alice",
+    "source_ip": "192.168.1.100",
+    "description": "Security alert #8: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0009",
+    "timestamp": "2024-06-28T01:25:00Z",
+    "alert_type": "Malware Detection",
+    "severity": "LOW",
+    "affected_user": "svc_account",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #9: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "admin"
+  },
+  {
+    "alert_id": "ALT-0010",
+    "timestamp": "2024-04-12T03:47:00Z",
+    "alert_type": "Malware Detection",
+    "severity": "LOW",
+    "affected_user": "bob",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #10: Automated detection of suspicious activity.",
+    "status": "OPEN",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0011",
+    "timestamp": "2024-05-21T02:45:00Z",
+    "alert_type": "Brute Force Attack",
+    "severity": "MEDIUM",
+    "affected_user": "admin",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #11: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0012",
+    "timestamp": "2024-05-06T19:24:00Z",
+    "alert_type": "Privilege Abuse",
+    "severity": "CRITICAL",
+    "affected_user": "alice",
+    "source_ip": "192.168.1.100",
+    "description": "Security alert #12: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0013",
+    "timestamp": "2024-06-25T20:04:00Z",
+    "alert_type": "Anomalous Login",
+    "severity": "CRITICAL",
+    "affected_user": "bob",
+    "source_ip": "192.168.1.100",
+    "description": "Security alert #13: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0014",
+    "timestamp": "2024-06-01T18:39:00Z",
+    "alert_type": "Anomalous Login",
+    "severity": "HIGH",
+    "affected_user": "alice",
+    "source_ip": "192.168.1.100",
+    "description": "Security alert #14: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0015",
+    "timestamp": "2024-02-22T19:29:00Z",
+    "alert_type": "Unauthorized Access",
+    "severity": "MEDIUM",
+    "affected_user": "alice",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #15: Automated detection of suspicious activity.",
+    "status": "OPEN",
+    "assigned_to": "charlie"
+  },
+  {
+    "alert_id": "ALT-0016",
+    "timestamp": "2024-05-24T09:10:00Z",
+    "alert_type": "Data Exfiltration Attempt",
+    "severity": "CRITICAL",
+    "affected_user": "bob",
+    "source_ip": "198.51.100.22",
+    "description": "Security alert #16: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0017",
+    "timestamp": "2024-06-01T22:31:00Z",
+    "alert_type": "Unauthorized Access",
+    "severity": "HIGH",
+    "affected_user": "svc_account",
+    "source_ip": "10.0.1.12",
+    "description": "Security alert #17: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0018",
+    "timestamp": "2024-02-14T04:33:00Z",
+    "alert_type": "Malware Detection",
+    "severity": "LOW",
+    "affected_user": "charlie",
+    "source_ip": "10.0.2.45",
+    "description": "Security alert #18: Automated detection of suspicious activity.",
+    "status": "RESOLVED",
+    "assigned_to": "soc_analyst"
+  },
+  {
+    "alert_id": "ALT-0019",
+    "timestamp": "2024-02-22T02:32:00Z",
+    "alert_type": "Malware Detection",
+    "severity": "LOW",
+    "affected_user": "charlie",
+    "source_ip": "10.0.2.45",
+    "description": "Security alert #19: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "admin"
+  },
+  {
+    "alert_id": "ALT-0020",
+    "timestamp": "2024-04-02T08:18:00Z",
+    "alert_type": "Privilege Abuse",
+    "severity": "MEDIUM",
+    "affected_user": "alice",
+    "source_ip": "10.0.2.45",
+    "description": "Security alert #20: Automated detection of suspicious activity.",
+    "status": "INVESTIGATING",
+    "assigned_to": "charlie"
+  }
+]

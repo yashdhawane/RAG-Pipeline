@@ -1,0 +1,19 @@
+{
+  "HR": [
+    "hr",
+    "employee_records"
+  ],
+  "Finance": [
+    "finance",
+    "transactions"
+  ],
+  "Security": [
+    "security",
+    "security_logs",
+    "audit",
+    "alerts"
+  ],
+  "Admin": [
+    "*"
+  ]
+}
